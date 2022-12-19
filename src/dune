@@ -1,0 +1,9 @@
+(library
+ (name my_plugin)
+ (public_name my-coq-plugin.plugin)
+ (synopsis "My Coq Plugin")
+ (flags :standard -rectypes -w -27)
+ (libraries my-coq-plugin.callable_rust coq-core.vernac threads.posix))
+
+(coq.pp
+ (modules syntax))

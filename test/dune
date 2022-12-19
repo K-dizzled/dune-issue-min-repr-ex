@@ -1,0 +1,4 @@
+(executables
+ (names test1)
+ (flags :standard -rectypes -w -27)
+ (libraries my-coq-plugin.plugin))
